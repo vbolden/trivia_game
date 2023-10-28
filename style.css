@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Princess+Sofia&family=Roboto:wght@400;700&family=Space+Grotesk&display=swap');
+
+* {  
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #35155D;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+.quiz-container h1 {
+    font-family: 'Princess Sofia', cursive;
+    font-size: 45px;
+    border-bottom: 1px solid #333;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.quiz-container {
+    background-color:#9D76C1;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #E5CFF7;
+    color: #35155D;
+    font-weight: 500;
+    width: 100%;
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: #35155D;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background-color: #9D76C1;
+    color: #35155D;
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+#next-btn:hover {
+    color: #fff;
+}
+
+.correct {
+    background-color: #9aeabc;
+}
+
+.incorrect {
+    background-color: #ff9393;
+}
